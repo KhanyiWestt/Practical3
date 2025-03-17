@@ -1659,3 +1659,19 @@ if ( $.ajaxPrefilter ) {
 }
 return $;
 }));
+//function validateForm() {
+	//let x = document.forms["myForm"]["exampleFormControlInput1"].value;
+	//if (x == null) {
+		//alert("Please fill in First Name!")
+	//}
+
+	//let y = document.forms["myForm"]["exampleFormControlInput2"].value;
+	//if (y == null) {
+		//alert("Please fill in last name!")
+
+		//let z = document.Forms["myForm"]["exampleInputEmail"];
+		//if (z == null) {
+			//alert("Please fill in Email Address")
+		//}
+	//}
+//}

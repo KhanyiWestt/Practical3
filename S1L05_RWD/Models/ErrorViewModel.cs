@@ -8,4 +8,5 @@ namespace S1L05_RWD.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+    
 }

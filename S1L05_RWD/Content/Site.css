@@ -17,8 +17,14 @@ body {
     margin-bottom: 60px;
     background-color: var(--light);
 }
-@media screen and (max-with:700px) {
-    div.myCarousel {
-        display: none;
-    }
-} /*Carousel must disapear if the screen size is less than 700px*/ 
+@media screen and (max-width:698px) {
+   .carousel {
+       display: none;
+   }
+}
+/*Carousel must disapear if the screen size is less than 700px*/
+
+.row{
+    display: flex;
+
+}

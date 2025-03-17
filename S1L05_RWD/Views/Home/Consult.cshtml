@@ -1,0 +1,46 @@
+﻿@model S1L05_RWD.Models.ErrorViewModel
+
+@{
+    ViewBag.Title = "Consult";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" /> <!--Reference bootstrap for it to work-->
+
+<h2>Book a consultation with your Lecturer.</h2>
+
+<h4>Your details</h4>
+@*Form for First Name, Last Name, Email Address*@
+<form name="myForm" >
+    <div class="container">
+        <div class="row">
+            <div class="col mb-3 form-group">
+                <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" required> @*if the form field is empty the required attributes prevents the user from submitting and a message appears reminding them to fill in form*@
+            </div>
+
+            <div class="col mb-3 form-group">
+                <label for="exampleFormmControlInput2" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput2" required>
+            </div>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="exampleInputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail" required>
+        </div>
+
+        @*Comment area*@
+        <div class="mb-3">
+            <label for="exampleFormControlTextArea1" class="form-label">Comments</label>
+            <textarea class="form-control" id="exampleFormControlTextArea1" rows="3"></textarea>
+
+        </div>
+
+        @*submit button*@
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary mb-3" style="background-color:green;">Submit</button>
+        </div>
+    </div>
+</form>
+
+
